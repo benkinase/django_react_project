@@ -37,7 +37,7 @@ if the db.sqlite3 file is for some reason unreadable (after download):
 - remove the file (but data is lost)
 - run "python manage.py makemigrations" to prepare models for migrations
 - run "python manage.py migrate" to migrate the models into database and generate db.sqlite3 file
-- then create a super user (VPN) to have access to admin dashboard
+- then create a super user to have access to admin dashboard
 else:
 - Create a super user 
 - For this: run "python manage.py createsuperuser" and follow intructions
