@@ -1,5 +1,5 @@
 # teraki_quiz
-HR Employment management tool (HREMT)
+HR Employee management tool 
 
 # How to run this project
 - Clone or download and unzip to extract project folder
@@ -39,7 +39,7 @@ if the db.sqlite3 file is for some reason unreadable (after download):
 - run "python manage.py migrate" to migrate the models into database and generate db.sqlite3 file
 - then create a super user (VPN) to have access to admin dashboard
 else:
-- Create a super user (VPN)
+- Create a super user 
 - For this: run "python manage.py createsuperuser" and follow intructions
 - Login through "http://127.0.0.1:8000/admin" and perform CRUD operations
 - So long as there is already a React build, old or regenerated (see above), the CRUD changes are served immediately
