@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #dbdbdb;
+  --secondary-color: #fcfafa;
+  --tertiary-color: #02255a;
+  --mainTransition: all 300ms linear;
+  --mainShadow: 0 2px 5px rgba(105, 101, 101, 0.5);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  background: var(--primary-color);
+}
