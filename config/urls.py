@@ -11,7 +11,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('apps.employee.urls')),
     re_path(r'^.*', TemplateView.as_view(template_name='index.html')),
-    #path('', include('apps.frontend.urls')),
+    
 ]
 
 if settings.DEBUG:

@@ -25,5 +25,4 @@ const styles = {
     padding: "10px",
     height: "100vh",
   },
-  hr: { backgroundColor: "red" },
 };

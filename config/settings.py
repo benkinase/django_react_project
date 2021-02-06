@@ -13,7 +13,7 @@ SECRET_KEY = 'l)05sw^splqo4r7sp705&^q_oc!o+13bkzq1-3bff7=_cues&y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = []
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
 )
@@ -48,7 +48,7 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'build')], 
+        'DIRS': [os.path.join(BASE_DIR,'build')], #django serves the build from react
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

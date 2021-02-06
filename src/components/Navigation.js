@@ -18,10 +18,10 @@ export default function Navigation() {
   );
 }
 
-const colors = {
-  link: "#ecb78c",
-  others: "#ffaa64",
-};
+// const colors = {
+//   link: "#ecb78c",
+//   others: "#ffaa64",
+// };
 
 const styles = {
   root: {

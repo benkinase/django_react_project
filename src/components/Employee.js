@@ -6,7 +6,7 @@ import classes from "./Styles.module.css";
 export const Employee = ({ item }) => {
   // destructuring the item prop
   const { id, name, role } = item;
-  // instatiate useHistory hook to handle click event
+  // instantiate useHistory hook to handle click event
   const history = useHistory();
   return (
     <div

@@ -16,9 +16,12 @@ module.exports = merge(common, {
     port: process.env.PORT || 3000,
     hot: true, // Enable hot reloading. HotModuleReplacementPlugin
     open: true,
+    quiet: true,
+    noInfo: false,
     //stats: "minimal",
     stats: { colors: true },
     compress: true,
+    //allowedHosts: ['.host.com', 'host2.com'],
     proxy: {
       "/api": {
         target: "http://localhost:3000",
