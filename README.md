@@ -1,4 +1,4 @@
-# teraki_quiz
+# The Project
 
 HR Employee management tool
 
