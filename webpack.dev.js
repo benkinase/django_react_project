@@ -11,7 +11,6 @@ module.exports = merge(common, {
     host: process.env.Host || "localhost",
     historyApiFallback: true,
     inline: true,
-    liveReload: false,
     port: process.env.PORT || 3000,
     hot: true, // Enable hot reloading. aka HotModuleReplacement
     open: true,
